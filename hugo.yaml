@@ -17,7 +17,7 @@ params:
   title: ExampleSite
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: M. Takano
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -51,8 +51,8 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
+    text: "random_walk"
+    # icon: /Galton_board_5_0.png
     iconHeight: 35
 
   # profile-mode
