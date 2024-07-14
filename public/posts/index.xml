@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>//localhost:1313/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jul 2024 00:42:38 +0900</lastBuildDate>
-    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <title>Posts on ExampleSite</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on ExampleSite</description>
+    <image>
+      <title>ExampleSite</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.128.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Jul 2024 16:01:45 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>//localhost:1313/posts/my-first-post/</link>
-      <pubDate>Sun, 14 Jul 2024 00:42:38 +0900</pubDate>
-      <guid>//localhost:1313/posts/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
+      <title>Galton board simulation in Python</title>
+      <link>http://localhost:1313/posts/galton_board/</link>
+      <pubDate>Sun, 14 Jul 2024 16:01:45 +0900</pubDate>
+      <guid>http://localhost:1313/posts/galton_board/</guid>
+      <description>Sketch of the ideas: Consider each sampling of the balls as a 1-dimensional random walk, which takes only two possible directions: left or right, at each step. The directional path (i.e., we don&amp;rsquo;t consider its length but only direction) of the ball is then equivalent to a sequence of L/R (or -1/1, or 0/1, whatever you like) of length $n$, where $n$ is the number of rows of the Galton board (the size of the map).</description>
+    </item>
+    <item>
+      <title>Test Jupyter Notebook</title>
+      <link>http://localhost:1313/posts/test-jupyter-notebook/</link>
+      <pubDate>Sun, 14 Jul 2024 16:01:45 +0900</pubDate>
+      <guid>http://localhost:1313/posts/test-jupyter-notebook/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
