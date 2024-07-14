@@ -4,34 +4,6 @@ date = 2024-07-14T16:01:45+09:00
 draft = false
 +++
 
-
-A \\$5 bill _saved_ is a \\$5 bill _earned_.
-
-
-This is an inline \(a^*=x-b^*\) equation.
-
-These are block equations:
-
-\[a^*=x-b^*\]
-
-\[ a^*=x-b^* \]
-
-\[
-a^*=x-b^*
-\]
-
-These are block equations using alternate delimiters:
-
-$$a^*=x-b^*$$
-
-$$ a^*=x-b^* $$
-
-$$
-a^*=x-b^*
-$$
-
-
-
 ## Sketch of the ideas:
 
 1. Consider each sampling of the balls as a 1-dimensional random walk, which takes only two possible directions: left or right, at each step. The directional path (i.e., we don't consider its length but only direction) of the ball is then equivalent to a sequence of L/R (or -1/1, or 0/1, whatever you like) of length $n$, where $n$ is the number of rows of the Galton board (the size of the map).
