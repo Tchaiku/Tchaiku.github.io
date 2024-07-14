@@ -18,14 +18,18 @@
       <link>http://localhost:1313/posts/galton_board/</link>
       <pubDate>Sun, 14 Jul 2024 16:01:45 +0900</pubDate>
       <guid>http://localhost:1313/posts/galton_board/</guid>
-      <description>Sketch of the ideas: Consider each sampling of the balls as a 1-dimensional random walk, which takes only two possible directions: left or right, at each step. The directional path (i.e., we don&amp;rsquo;t consider its length but only direction) of the ball is then equivalent to a sequence of L/R (or -1/1, or 0/1, whatever you like) of length $n$, where $n$ is the number of rows of the Galton board (the size of the map).</description>
+      <description>A \$5 bill saved is a \$5 bill earned.
+This is an inline \(a^*=x-b^*\) equation.
+These are block equations:
+\[a^*=x-b^*\] \[ a^*=x-b^* \] \[a^*=x-b^*\] These are block equations using alternate delimiters:
+$$a^*=x-b^*$$ $$ a^*=x-b^* $$ $$a^*=x-b^*$$ Sketch of the ideas: Consider each sampling of the balls as a 1-dimensional random walk, which takes only two possible directions: left or right, at each step. The directional path (i.</description>
     </item>
     <item>
       <title>Test Jupyter Notebook</title>
       <link>http://localhost:1313/posts/test-jupyter-notebook/</link>
       <pubDate>Sun, 14 Jul 2024 16:01:45 +0900</pubDate>
       <guid>http://localhost:1313/posts/test-jupyter-notebook/</guid>
-      <description></description>
+      <description>h</description>
     </item>
   </channel>
 </rss>
