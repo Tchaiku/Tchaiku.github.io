@@ -2,6 +2,7 @@
 title = 'Galton board simulation in Python'
 date = 2024-07-14T16:01:45+09:00
 draft = false
+tags = ["Python", "probability","Law of large numbers", "Bernoulli distribution", "Galton board"]
 +++
 
 ## Sketch of the ideas:
