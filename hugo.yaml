@@ -1,5 +1,5 @@
-baseURL: "https://examplesite.com/"
-title: ExampleSite
+baseURL: "https://tchaiku.github.io/"
+title: random_walk
 paginate: 5
 theme: PaperMod
 
@@ -15,7 +15,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: ExampleSite
-  description: "ExampleSite description"
+  description: "A place for some random stuff."
   keywords: [Blog, Portfolio, PaperMod]
   author: M. Takano
   # author: ["Me", "You"] # multiple authors
@@ -73,7 +73,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: A place for some random stuff.
 
   socialIcons:
     # - name: x
