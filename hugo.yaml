@@ -118,9 +118,9 @@ menu:
       name: archives
       url: /archives/
       weight: 10
-    - identifier: categories
-      name: categories
-      url: /categories/
+    # - identifier: categories
+    #   name: categories
+    #   url: /categories/
       weight: 10
     - identifier: tags
       name: tags
