@@ -30,6 +30,8 @@ draft = false
 Now let's start coding.
 
 
+## The code
+
 ```python
 import random
 class trial():
