@@ -14,7 +14,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
+  # title: ExampleSite
   description: "A place for some random stuff."
   keywords: [Blog, Portfolio, PaperMod]
   author: M. Takano
@@ -26,7 +26,7 @@ params:
   math: true
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -40,6 +40,14 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: false
+
+  # configure staticman
+  # staticman:
+  #   endpoint: 'https://staticman-app-48242a629616.herokuapp.com/v2/entry'
+  #   username: Tchaiku
+  #   repository: Tchaiku.github.io
+  #   branch: master
+
 
   assets:
     disableHLJS: true # to disable highlight.js
