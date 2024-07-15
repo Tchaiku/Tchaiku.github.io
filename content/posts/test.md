@@ -1,39 +1,38 @@
 ---
-title: "My 1st post"
-date: 2020-09-15T11:30:03+00:00
-# weight: 1
-# aliases: ["/first"]
-tags: ["first"]
-author: "Me"
-# author: ["Me", "You"] # multiple authors
-showToc: true
-TocOpen: false
-draft: true
-hidemeta: false
-comments: false
-description: "Desc Text."
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
-searchHidden: true
-ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-ShowWordCount: true
+ShowReadingTime: true
 ShowRssButtonInSectionTermList: true
+ShowWordCount: true
+TocOpen: false
 UseHugoToc: true
+author: Me
+canonicalURL: https://canonical.url/to/page
+comments: true
 cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+  alt: <alt text>
+  caption: <text>
+  hidden: true
+  image: <image path/url>
+  relative: false
+date: "2020-09-15T11:30:03+00:00"
+description: Desc Text.
+disableHLJS: false
+disableShare: false
+draft: true
 editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  Text: Suggest Changes
+  URL: https://github.com/<path_to_repo>/content
+  appendFilePath: true
+hideSummary: false
+hidemeta: false
+params:
+  math: true
+searchHidden: true
+showToc: true
+tags:
+- first
+title: My 1st post
 ---
 
 This is a test.

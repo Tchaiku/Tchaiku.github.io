@@ -1,0 +1,50 @@
+<head>
+    <!-- ... -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@waline/client@3.3.0/dist/waline.min.css"
+    />
+    <!-- ... -->
+  </head>
+  <body>
+    <!-- ... -->
+
+    <!-- <div id="waline-recent"></div> -->
+    <!-- <script type="module"> -->
+    <!--     import { RecentComments } from 'https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.mjs'; -->
+    <!---->
+    <!--     RecentComments({ -->
+    <!--         el: '#waline-recent', -->
+    <!--         serverURL: 'http://waline.vercel.app', -->
+    <!--         count: 1, -->
+    <!--     }); -->
+    <!-- </script> -->
+
+    <!-- <div id="article-info"> -->
+      <!-- ... -->
+      <!-- 阅读量: <span class="waline-pageview-count" data-path="{{.RelPermalink}}" /> -->
+      <!-- ... -->
+    <!-- </div> -->
+
+    <div id="waline"></div>
+    <script type="module">
+      import { init } from 'https://cdnjs.cloudflare.com/ajax/libs/waline/3.3.0/waline.js';
+
+      init({
+        el: '#waline',
+        serverURL: 'https://waline-server-omega-rust.vercel.app/',
+        lang: 'en-US',
+        emoji: [
+        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/bilibili',
+        'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
+        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/alus',
+        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tw-symbol',
+        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tw-object',  
+        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tw-flag',
+        ],
+        dark: "body.dark",
+        
+      });
+    </script>
+
+  </body>
