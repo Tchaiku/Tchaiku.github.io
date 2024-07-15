@@ -1,5 +1,7 @@
 ---
-date: "2024-07-14T16:01:45+09:00"
+UseHugoToc: true
+
+date: "2024-07-14"
 draft: false
 tags:
 - Python
@@ -10,6 +12,8 @@ tags:
 title: Galton board simulation in Python
 editPost:
   Text: Source
+
+summary: "A simple simulation of the Galton board in Python, using the object-oriented programming, verifying the central limit theorem."
 ---
 
 ## Sketch of the ideas:

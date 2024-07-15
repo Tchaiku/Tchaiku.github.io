@@ -51,7 +51,7 @@ params:
 
   assets:
     disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
+    disableFingerprinting: true
     favicon: "<link / abs url>"
     favicon16x16: "<link / abs url>"
     favicon32x32: "<link / abs url>"
@@ -100,9 +100,9 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
+    hidden: false # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hiddenInSingle: false # hide on single page
 
   editPost:
     URL: "https://github.com/Tchaiku/Tchaiku.github.io/tree/master/content"
@@ -126,10 +126,14 @@ menu:
       name: archives
       url: /archives/
       weight: 10
+    # - identifier: about
+    #   name: about
+    #   url: /about/
+    #   weight: 20
     # - identifier: categories
     #   name: categories
     #   url: /categories/
-      weight: 10
+      # weight: 10
     - identifier: tags
       name: tags
       url: /tags/
@@ -138,6 +142,20 @@ menu:
     #   name: example.org
     #   url: https://example.org
     #   weight: 30
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 30
+
+
+# add search to the menu
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
