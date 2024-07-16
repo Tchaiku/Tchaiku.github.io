@@ -30,20 +30,20 @@ params:
 showToc: true
 tags:
 # - first
-title: 'Donaldson'
-summary: |
-  This paper is a survey of some recent developments in the area described by the title, and follows the lines of the author’s lecture in the 2015 Harvard Current Developments in Mathematics meeting. The main focus of the paper is on the Yau conjecture relating the existence of Kähler-Einstein metrics on Fano manifolds to K-stability. We discuss four different proofs of this, by different authors, which have appeared over the past few years. These involve an interesting variety of approaches and draw on techniques from different fields.
+summary: On the Doe conjecture relating the existence of Alpha-beta metrics on Nuno manifolds to L-stability.
 author:
-- Simon Donaldson
+- John Doe
 date: 2024-07-16
-title: Kähler-Einstein metrics and algebraic geometry
+title: Customizing theorem-like blocks for academic purpose in Hugo
 ---
+
+{{< notice note >}}
+This article below is only for showcasing the features of the *thm-environments* in progress over `hugo-notice`. The math presented here is segmented from several math papers and as a whole it should make no sense from the end of current sentence on.
+{{< /notice >}}
+
 
 ## Introduction
 
-{{< notice tip >}}
-This is a very good tip.
-{{< /notice >}}
 
 
 With these definitions in place we can state the main definition of this section.
@@ -83,6 +83,7 @@ Berry's conjecture. Note that in this case, the curvature is 0 and no
 chaotic dynamics are present.
 {{< /notice >}}
 
+### Asymptotic equivalence
 
 This formula can be derived from the equivariant Riemann-Roch theorem and can also be understood in terms of the asymptotic geometry of sections of $L^{k}$ as $k\rightarrow \infty$, in the vein of quasi-classical asymptotics in quantisation theory. What this formula shows immediately is that if $\omega$ can be chosen to have constant scalar curvature—in particular if it is a Kähler-Einstein metric—then the Futaki invariant vanishes[^2]. This given another way, different from the Matshusima theorem, of ruling out Kähler-Einstein metrics on 1 or 2 point blow-ups of ${\bf C}{\bf P}^{2}$. The definition of K-stability employs the Futaki invariant in a more subtle way; it is not just the automorphisms of $X$ which need to be considered but of the degenerations. The *Mabuchi functional* gives a way to understand this phenomenon. 
 

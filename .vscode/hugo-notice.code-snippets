@@ -1,0 +1,110 @@
+{
+	"Theorem environment": {
+		"scope": "markdown, html",
+		"prefix": "thm, theorem",
+		"body": [
+			"{{< notice theorem >}}",
+			"$1",
+			"{{< /notice >}}"
+		],
+		"description": "Theorem environment in Hugo markdown."
+	},
+	"Lemma environment": {
+		"scope": "markdown, html",
+		"prefix": "lemma",
+		"body": [
+			"{{< notice lemma >}}",
+			"$1",
+			"{{< /notice >}}"
+		],
+		"description": "Lemma environment in Hugo markdown."
+	},
+	"Proposition environment": {
+		"scope": "markdown, html",
+		"prefix": "prop, proposition",
+		"body": [
+			"{{< notice proposition >}}",
+			"$1",
+			"{{< /notice >}}"
+		],
+		"description": "Proposition environment in Hugo markdown."
+	},
+	"Corollary environment": {
+		"scope": "markdown, html",
+		"prefix": "cor, corollary",
+		"body": [
+			"{{< notice corollary >}}",
+			"$1",
+			"{{< /notice >}}"
+		],
+		"description": "Corollary environment in Hugo markdown."
+	},
+	"Definition environment": {
+		"scope": "markdown, html",
+		"prefix": "def, definition",
+		"body": [
+			"{{< notice definition >}}",
+			"$1",
+			"{{< /notice >}}"
+		],
+		"description": "Definition environment in Hugo markdown."
+	},
+	"Note environment": {
+		"scope": "markdown, html",
+		"prefix": "note",
+		"body": [
+			"{{< notice note >}}",
+			"$1",
+			"{{< /notice >}}"
+		],
+		"description": "Note environment in Hugo markdown."
+	},
+	"Warning environment": {
+		"scope": "markdown, html",
+		"prefix": "warning",
+		"body": [
+			"{{< notice warning >}}",
+			"$1",
+			"{{< /notice >}}"
+		],
+		"description": "Warning environment in Hugo markdown."
+	},
+	"Tip environment": {
+		"scope": "markdown, html",
+		"prefix": "tip",
+		"body": [
+			"{{< notice tip >}}",
+			"$1",
+			"{{< /notice >}}"
+		],
+		"description": "Tip environment in Hugo markdown."
+	},
+	"Info environment": {
+		"scope": "markdown, html",
+		"prefix": "info",
+		"body": [
+			"{{< notice info >}}",
+			"$1",
+			"{{< /notice >}}"
+		],
+		"description": "Info environment in Hugo markdown."
+	},
+
+
+	// Place your Tchaiku-Hugo-site workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+}
