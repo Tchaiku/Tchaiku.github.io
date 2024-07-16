@@ -41,6 +41,11 @@ title: Kähler-Einstein metrics and algebraic geometry
 
 ## Introduction
 
+{{< notice tip >}}
+This is a very good tip.
+{{< /notice >}}
+
+
 With these definitions in place we can state the main definition of this section.
 
 {{< notice definition >}}
