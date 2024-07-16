@@ -17,7 +17,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   # title: ExampleSite
-  description: "Hey, don't waste time on my info, check the posts instead."
+  description: "A place for some random stuff."
   keywords: [Blog, Portfolio, PaperMod]
   author: M. Takano
   # author: ["Me", "You"] # multiple authors
@@ -83,7 +83,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: A place for some random stuff.
+    Content: Hey, don't waste time on my info, check the posts instead.
 
   socialIcons:
     # - name: x
