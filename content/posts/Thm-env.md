@@ -86,7 +86,7 @@ Berry's conjecture. Note that in this case, the curvature is 0 and no
 chaotic dynamics are present.
 {{< /notice >}}
 
-### Asymptotic equivalence
+### The Futaki invariant
 
 This formula can be derived from the equivariant Riemann-Roch theorem and can also be understood in terms of the asymptotic geometry of sections of $L^{k}$ as $k\rightarrow \infty$, in the vein of quasi-classical asymptotics in quantisation theory. What this formula shows immediately is that if $\omega$ can be chosen to have constant scalar curvature—in particular if it is a Kähler-Einstein metric—then the Futaki invariant vanishes[^2]. This given another way, different from the Matshusima theorem, of ruling out Kähler-Einstein metrics on 1 or 2 point blow-ups of ${\bf C}{\bf P}^{2}$. The definition of K-stability employs the Futaki invariant in a more subtle way; it is not just the automorphisms of $X$ which need to be considered but of the degenerations. The *Mabuchi functional* gives a way to understand this phenomenon. 
 
