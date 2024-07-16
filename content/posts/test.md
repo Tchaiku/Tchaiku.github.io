@@ -44,3 +44,7 @@ This is a warning notice. Be warned!
 {{< notice tip >}}
 This is a very good tip.
 {{< /notice >}}
+
+{{< notice theorem >}}
+This is a very good theorem.
+{{< /notice >}}
