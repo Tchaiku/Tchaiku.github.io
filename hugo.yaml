@@ -17,7 +17,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   # title: ExampleSite
-  description: "A place for some random stuff."
+  description: "Hey, don't waste time on my info, check the posts instead."
   keywords: [Blog, Portfolio, PaperMod]
   author: M. Takano
   # author: ["Me", "You"] # multiple authors
