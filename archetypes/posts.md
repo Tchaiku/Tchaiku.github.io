@@ -12,6 +12,7 @@ comments: true
 #   image: <image path/url>
 #   relative: false
 date: {{ .Date }}
+lastmod: {{ .Date }}
 # description: Desc Text.
 # disableHLJS: false
 # disableShare: false

@@ -2,6 +2,7 @@
 UseHugoToc: true
 
 date: "2024-07-14"
+lastmod: "2024-07-16"
 draft: false
 tags:
 - Python
