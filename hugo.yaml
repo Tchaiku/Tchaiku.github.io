@@ -63,7 +63,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   # for customize css
-  customCSS: ["css/footnote-ref.css", "css/paginav.css",]
+  customCSS: ["css/footnote-ref.css", "css/paginav.css","css/wl-panel.css",]
 
   label:
     text: "random_walk"
