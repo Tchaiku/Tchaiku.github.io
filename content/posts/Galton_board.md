@@ -37,7 +37,7 @@ cover:
    3. and some other parameters that we may need.
    
 3. Then for each sampling of the balls:
-   - the method sample() will be called, which return a list of dicts as the result of the sampling, where the keys are:
+   - the method `sample()` will be called, which return a list of dicts as the result of the sampling, where the keys are:
      - the path
      - the final position of the ball, which is the sum of the path
    - not only the return value, but also result will be appended and stored as attributes `trial.sample_results` of the trial object.

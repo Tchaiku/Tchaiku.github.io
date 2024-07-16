@@ -11,14 +11,21 @@
     </image>
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jul 2024 20:08:12 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Customizing theorem-like blocks for academic purpose in Hugo</title>
+      <link>http://localhost:1313/posts/thm-env/</link>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/thm-env/</guid>
+      <description>On the Doe conjecture relating the existence of Alpha-beta metrics on Nuno manifolds to L-stability.</description>
+    </item>
     <item>
       <title>Galton board simulation in Python</title>
       <link>http://localhost:1313/posts/galton_board/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/galton_board/</guid>
-      <description>A simple simulation of the Galton board in Python, using the object-oriented programming, verifying the central limit theorem.</description>
+      <description>A simple simulation the trial in Python, verifying the central limit theorem.</description>
     </item>
     <item>
       <title>My 1st post</title>
