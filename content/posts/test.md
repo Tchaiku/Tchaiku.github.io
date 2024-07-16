@@ -48,3 +48,19 @@ This is a very good tip.
 {{< notice theorem >}}
 This is a very good theorem.
 {{< /notice >}}
+
+{{< notice definition >}}
+This is a very good definition.
+{{< /notice >}}
+
+{{< notice corollary >}}
+This is a very good corollary.
+{{< /notice >}}
+
+{{< notice proposition >}}
+This is a very good proposition.
+{{< /notice >}}
+
+{{< notice remark >}}
+This is a very good remark.
+{{< /notice >}}

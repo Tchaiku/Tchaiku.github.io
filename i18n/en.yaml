@@ -47,3 +47,11 @@
 
 - id: theorem
   translation: "Theorem"
+- id: definition
+  translation: "Definition"
+- id: corollary
+  translation: "Corollary"
+- id: proposition
+  translation: "Proposition"
+- id: remark
+  translation: "Remark"
