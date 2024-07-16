@@ -15,7 +15,7 @@ date: 2024-07-16T14:36:30+09:00
 # description: Desc Text.
 # disableHLJS: false
 # disableShare: false
-draft: true
+draft: false
 # editPost:
 #   Text: Suggest Changes
 #   URL: https://github.com/<path_to_repo>/content
