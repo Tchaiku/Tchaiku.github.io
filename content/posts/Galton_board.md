@@ -14,6 +14,17 @@ editPost:
   Text: Source
 
 summary: "A simple simulation of the Galton board in Python, using the object-oriented programming, verifying the central limit theorem."
+
+description: "A simple simulation the trial in Python, verifying the central limit theorem."
+
+cover:
+  alt: "A real Galton board."
+#   caption: <text>
+  caption: "Refer to this if you're not sure about some parameters in the code. Note that the 'size' is always an even number."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Tabuleiros_de_Galton_%28antes_e_depois%29.jpg/1920px-Tabuleiros_de_Galton_%28antes_e_depois%29.jpg"
+  relative: false
+
+
 ---
 
 ## Sketch of the ideas:
