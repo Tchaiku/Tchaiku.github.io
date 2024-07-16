@@ -45,6 +45,15 @@ This is a warning notice. Be warned!
 This is a very good tip.
 {{< /notice >}}
 
+{{< notice note >}}
+This is a very good note.
+{{< /notice >}}
+
+{{< notice info >}}
+This is a very good info.
+{{< /notice >}}
+
+
 {{< notice theorem >}}
 This is a very good theorem.
 {{< /notice >}}
