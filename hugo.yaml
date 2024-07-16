@@ -162,6 +162,10 @@ markup:
 
 # 2024-7-24: Settings for using math in markdown 
   goldmark:
+    parser:
+      attribute:
+        block: true
+        title: true
     extensions:
       passthrough:
         delimiters:
