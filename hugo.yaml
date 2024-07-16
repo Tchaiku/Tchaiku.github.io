@@ -62,6 +62,9 @@ params:
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
+  # for customize css
+  customCSS: ["css/footnote-ref.css", ]
+
   label:
     text: "random_walk"
     # icon: /Galton_board_5_0.png

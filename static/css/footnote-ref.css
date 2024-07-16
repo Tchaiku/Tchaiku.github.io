@@ -1,0 +1,11 @@
+a.footnote-ref:hover{
+    font-size: 85%;
+    box-shadow: 0 1px;
+    font-family: Verdana,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+}
+
+a.footnote-ref {
+    font-size: 85%;
+    box-shadow: none;
+    font-family: Verdana,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+}
