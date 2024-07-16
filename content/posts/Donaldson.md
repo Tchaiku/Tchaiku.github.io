@@ -43,24 +43,18 @@ title: Kähler-Einstein metrics and algebraic geometry
 
 With these definitions in place we can state the main definition of this section.
 
-<div class="defn">
-
 {{< notice definition >}}
-**Definition 1**. *A polarised variety $(X,L)$ is K-semistable if for any test configuration ${\cal X}$ we have ${\rm Fut}({\cal X})\geq 0$. It is $K$-stable if equality holds only when ${\cal X}$ is a product $X\times {\bf C}$.*
+A polarised variety $(X,L)$ is K-semistable if for any test configuration ${\cal X}$ we have ${\rm Fut}({\cal X})\geq 0$. It is $K$-stable if equality holds only when ${\cal X}$ is a product $X\times {\bf C}$.
 {{< /notice >}}
 
 
-</div>
+Note that in the last clause we allow the ${\bf C}^{*}$-action on $X\times {\bf C}$ to be induced from a non-trivial action[^1] on $X$. What we have called K-stability is often called K-polystability in the literature. The precise statement of the result mentioned in the previous section, verifying Yau’s conjecture, is
 
-Note that in the last clause we allow the ${\bf C}^{*}$-action on $X\times {\bf C}$ to be induced from a non-trivial action on $X$. What we have called K-stability is often called K-polystability in the literature. The precise statement of the result mentioned in the previous section, verifying Yau’s conjecture, is
-
-<div class="thm">
 
 {{< notice theorem >}}
-**Theorem 1**. *A Fano manifold $X$ admits a Kahler-Einstein metric if and only if $(X,K_{X}^{-1})$ is K-stable.*
+A Fano manifold $X$ admits a Kahler-Einstein metric if and only if $(X,K_{X}^{-1})$ is K-stable.
 {{< /notice >}}
 
-</div>
 
 Here the "only if" is usually regarded as the easier direction and is due to Berman , following related results of various authors The uniqueness of the metric, modulo holomorphic automorphisms, is a relatively old result of Bando and Mabuchi . We will not say more about these results here but focus on the ‘‘if” direction.
 
@@ -85,7 +79,7 @@ chaotic dynamics are present.
 {{< /notice >}}
 
 
-This formula can be derived from the equivariant Riemann-Roch theorem and can also be understood in terms of the asymptotic geometry of sections of $L^{k}$ as $k\rightarrow \infty$, in the vein of quasi-classical asymptotics in quantisation theory. What this formula shows immediately is that if $\omega$ can be chosen to have constant scalar curvature—in particular if it is a Kähler-Einstein metric—then the Futaki invariant vanishes. This given another way, different from the Matshusima theorem, of ruling out Kähler-Einstein metrics on 1 or 2 point blow-ups of ${\bf C}{\bf P}^{2}$. The definition of K-stability employs the Futaki invariant in a more subtle way; it is not just the automorphisms of $X$ which need to be considered but of the degenerations. The *Mabuchi functional* gives a way to understand this phenomenon. 
+This formula can be derived from the equivariant Riemann-Roch theorem and can also be understood in terms of the asymptotic geometry of sections of $L^{k}$ as $k\rightarrow \infty$, in the vein of quasi-classical asymptotics in quantisation theory. What this formula shows immediately is that if $\omega$ can be chosen to have constant scalar curvature—in particular if it is a Kähler-Einstein metric—then the Futaki invariant vanishes[^2]. This given another way, different from the Matshusima theorem, of ruling out Kähler-Einstein metrics on 1 or 2 point blow-ups of ${\bf C}{\bf P}^{2}$. The definition of K-stability employs the Futaki invariant in a more subtle way; it is not just the automorphisms of $X$ which need to be considered but of the degenerations. The *Mabuchi functional* gives a way to understand this phenomenon. 
 
 {{< notice corollary >}}
 Let $D\in\mathbb N$, $M>m>0$, and let $\mathcal Q _N=(V_N,E_N,L_N,W_N, \beta_N, U_N)$ be a sequence of quantum graphs satisfying cool equation for all $N\in \mathbb N$.
@@ -104,6 +98,10 @@ There are three possibilities:
 - ${\cal F}$ is not bounded below.
 
 An extension of Theorem 1 is the statement that these three possibilities correspond to $X$ being respectively $K$-stable, $K$-semistable (but not $K$-stable) and not $K$-semistable.
+
+
+[^1]: M Anderson, *Convergence and rigidity of manifolds under Ricci curvature bounds* Invent. Math. 102 (1990) 429-445.
+[^2]: S. Bando and T. Mabuchi, *Uniqueness of Einstein Kahler metrics modulo connected group actions*, Adv. Stud. Pure Math. 10 North Holland 1987 11-40.
 <!-- 
 <div class="thebibliography">
 
