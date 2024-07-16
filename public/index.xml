@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ExampleSite</title>
+    <title>random_walk</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on ExampleSite</description>
+    <description>Recent content on random_walk</description>
     <image>
-      <title>ExampleSite</title>
+      <title>random_walk</title>
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jul 2024 16:01:45 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Galton board simulation in Python</title>
       <link>http://localhost:1313/posts/galton_board/</link>
-      <pubDate>Sun, 14 Jul 2024 16:01:45 +0900</pubDate>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/galton_board/</guid>
-      <description>A \$5 bill saved is a \$5 bill earned.
-This is an inline \(a^*=x-b^*\) equation.
-These are block equations:
-\[a^*=x-b^*\] \[ a^*=x-b^* \] \[a^*=x-b^*\] These are block equations using alternate delimiters:
-$$a^*=x-b^*$$ $$ a^*=x-b^* $$ $$a^*=x-b^*$$ Sketch of the ideas: Consider each sampling of the balls as a 1-dimensional random walk, which takes only two possible directions: left or right, at each step. The directional path (i.</description>
+      <description>A simple simulation of the Galton board in Python, using the object-oriented programming, verifying the central limit theorem.</description>
     </item>
     <item>
-      <title>Test Jupyter Notebook</title>
-      <link>http://localhost:1313/posts/test-jupyter-notebook/</link>
-      <pubDate>Sun, 14 Jul 2024 16:01:45 +0900</pubDate>
-      <guid>http://localhost:1313/posts/test-jupyter-notebook/</guid>
-      <description>h</description>
+      <title>My 1st post</title>
+      <link>http://localhost:1313/posts/test/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/posts/test/</guid>
+      <description>Desc Text.</description>
     </item>
   </channel>
 </rss>
