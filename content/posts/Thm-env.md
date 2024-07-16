@@ -38,7 +38,7 @@ title: Customizing theorem-like blocks for academic purpose in Hugo
 ---
 
 {{< notice note >}}
-This article below is only for showcasing the features of the *thm-environments* in progress over `hugo-notice`. The math presented here is segmented from several math papers and as a whole it should make no sense from the end of current sentence on.
+This article below is only for showcasing the features of the *thm-environments* in progress over `hugo-notice`. The math presented here is segmented from several math papers and as a whole it should make no sense *from the end of current sentence on*.
 {{< /notice >}}
 
 
