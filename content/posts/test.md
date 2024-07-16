@@ -36,3 +36,11 @@ title: My 1st post
 ---
 
 This is a test.
+
+{{< notice warning >}}
+This is a warning notice. Be warned!
+{{< /notice >}}
+
+{{< notice tip >}}
+This is a very good tip.
+{{< /notice >}}
