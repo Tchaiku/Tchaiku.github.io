@@ -41,10 +41,6 @@
 
 <header class="header">
 
-    {{/*  apply my own css. in addition to the original ones.  */}}
-    {{ range .Site.Params.customCSS -}}
-    <link rel="stylesheet" href="{{ . | absURL }}">
-    {{- end }}
 
     <nav class="nav">
         <div class="logo">
