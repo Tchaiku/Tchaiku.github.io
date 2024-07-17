@@ -33,7 +33,7 @@ params:
 # searchHidden: true
 showToc: true
 tags:
-  - TeX
+  # - TeX
   - LaTeX
   - academic
   - theorem environment
