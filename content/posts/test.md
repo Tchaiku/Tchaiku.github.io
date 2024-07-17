@@ -16,6 +16,7 @@ cover:
   image: <image path/url>
   relative: false
 date: "2020-09-15T11:30:03+00:00"
+lastmod: "2020-09-15T11:30:03+00:00"
 description: Desc Text.
 disableHLJS: true
 disableShare: false

@@ -1,8 +1,7 @@
 ---
 ShowReadingTime: true
 ShowWordCount: true
-# UseHugoToc: true
-author: Me
+# author: Me
 # canonicalURL: https://canonical.url/to/page
 comments: true
 # cover:

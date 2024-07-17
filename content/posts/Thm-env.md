@@ -11,7 +11,8 @@ comments: true
 #   hidden: true
 #   image: <image path/url>
 #   relative: false
-date: 2024-07-16T14:36:30+09:00
+date: "2024-07-16"
+lastmod: "2024-07-16"
 # description: Desc Text.
 # disableHLJS: false
 # disableShare: false

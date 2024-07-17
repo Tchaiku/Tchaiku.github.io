@@ -204,3 +204,8 @@ markup:
     lineNos: true
     style: monokai
     tabWidth: 4
+
+
+frontmatter:
+  date: ["date", "publishDate", "lastmod"]
+  lastmod: ["lastmod", ":git", "date", "publishDate"]
