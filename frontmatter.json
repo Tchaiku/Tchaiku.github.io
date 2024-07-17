@@ -52,7 +52,11 @@
   "frontMatter.content.pageFolders": [
     {
       "title": "content",
-      "path": "[[workspace]]/G:/Google 云端硬盘/Coding/blog/Tchaiku-Hugo-site/content"
+      "path": "[[workspace]]/content"
+    },
+    {
+      "title": "posts",
+      "path": "[[workspace]]/content/posts"
     }
   ],
   "frontMatter.git.enabled": true
