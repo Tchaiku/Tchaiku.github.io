@@ -38,6 +38,8 @@ author:
 - John Doe
 date: 2024-07-16
 title: Customizing theorem-like blocks for academic purpose in Hugo
+
+weight: 10
 ---
 
 {{< notice note >}}

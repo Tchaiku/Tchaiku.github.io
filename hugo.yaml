@@ -29,6 +29,8 @@ params:
   disableThemeToggle: false
   math: true
 
+  mainSections: ["posts", "math",]
+
   ShowReadingTime: true
   ShowShareButtons: false
   ShowPostNavLinks: true

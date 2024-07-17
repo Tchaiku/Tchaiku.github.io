@@ -11,8 +11,8 @@ comments: true
 #   hidden: true
 #   image: <image path/url>
 #   relative: false
-date: {{ .Date }}
-lastmod: {{ .Date }}
+date: 2024-07-17T17:32:38+09:00
+lastmod: 2024-07-17T17:32:38+09:00
 # description: Desc Text.
 # disableHLJS: false
 # disableShare: false
@@ -31,6 +31,8 @@ params:
 showToc: true
 tags:
 # - first
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+title: 'Test Math'
 weight: 10
 ---
+
+This is a test.
