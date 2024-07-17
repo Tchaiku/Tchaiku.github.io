@@ -2,7 +2,6 @@
 ShowReadingTime: true
 ShowWordCount: true
 # UseHugoToc: true
-author: Me
 # canonicalURL: https://canonical.url/to/page
 comments: true
 # cover:
@@ -41,7 +40,6 @@ tags:
 summary: On the Doe conjecture relating the existence of Alpha-beta metrics on Nuno manifolds to L-stability.
 author:
 - John Doe
-date: 2024-07-16
 title: Customizing theorem-like blocks for academic purpose in Hugo
 
 weight: 10
