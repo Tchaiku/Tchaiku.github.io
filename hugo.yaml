@@ -29,7 +29,7 @@ params:
   disableThemeToggle: false
   math: true
 
-  mainSections: ["posts", "math",]
+
 
   ShowReadingTime: true
   ShowShareButtons: false
@@ -74,12 +74,12 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: true # needs to be explicitly set
     title: ExampleSite
     subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
+    # imageUrl: "<img location>"
+    # imageWidth: 120
+    # imageHeight: 120
     imageTitle: my image
     buttons:
       - name: Posts
@@ -129,6 +129,8 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
+
+
 menu:
   main:
     - identifier: archives
@@ -155,6 +157,11 @@ menu:
       name: search
       url: /search/
       weight: 30
+    - identifier: math
+      name: math
+      url: /math/
+      weight: 10
+
 
 
 # add search to the menu
