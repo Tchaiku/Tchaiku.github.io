@@ -89,6 +89,14 @@
 		],
 		"description": "Info environment in Hugo markdown."
 	},
+	"Reference in Hugo site": {
+		"scope": "markdown, html",
+		"prefix": "ref",
+		"body": [
+			"{{< ref \"$1\" >}}",
+		],
+		"description": "Reference environment in Hugo markdown."
+	},
 
 
 	// Place your Tchaiku-Hugo-site workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 

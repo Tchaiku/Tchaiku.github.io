@@ -33,6 +33,10 @@ params:
 # searchHidden: true
 showToc: true
 tags:
+  - TeX
+  - LaTeX
+  - academic
+  - theorem environment
 # - first
 summary: On the Doe conjecture relating the existence of Alpha-beta metrics on Nuno manifolds to L-stability.
 author:

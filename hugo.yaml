@@ -38,12 +38,13 @@ params:
   ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
+  UseHugoToc: false
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: true
   hidemeta: false
   hideSummary: false
+  # summaryLength: 60
   showtoc: true
   tocopen: false
 
@@ -74,7 +75,7 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: false # needs to be explicitly set
     title: ExampleSite
     subtitle: "This is subtitle"
     # imageUrl: "<img location>"
@@ -157,10 +158,10 @@ menu:
       name: search
       url: /search/
       weight: 30
-    - identifier: math
-      name: math
-      url: /math/
-      weight: 10
+    # - identifier: math
+    #   name: math
+    #   url: /math/
+    #   weight: 10
 
 
 
