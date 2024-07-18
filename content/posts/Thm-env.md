@@ -36,13 +36,17 @@ tags:
   - LaTeX
   - academic
   - theorem environment
+  - Hugo
+  - theme components
 # - first
 summary: On the Doe conjecture relating the existence of Alpha-beta metrics on Nuno manifolds to L-stability.
 author:
 - John Doe
 title: Customizing theorem-like blocks for academic purpose in Hugo
+description: For those in need of some $\LaTeX$ style boxes for emphasizing.
+# weight: 10
 
-weight: 10
+slug: theorem-in-hugo
 ---
 
 {{< notice note >}}

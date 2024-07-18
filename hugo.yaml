@@ -20,10 +20,10 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   # title: ExampleSite
   description: "A place for some random stuff."
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords: [Blog, Mathematics, Probability, Python]
   author: M. Takano
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -47,6 +47,9 @@ params:
   # summaryLength: 60
   showtoc: true
   tocopen: false
+
+  # capitalizeListTitles: false
+  # titleCaseStyle: 'none'
 
   # configure staticman
   # staticman:
