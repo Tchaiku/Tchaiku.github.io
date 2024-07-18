@@ -149,6 +149,9 @@ This is a very good remark.
 {{< /notice >}}
 
 
+
+
+
 ```goat
       .               .                .               .--- 1          .-- 1     / 1
      / \              |                |           .---+            .-+         +
@@ -195,4 +198,16 @@ This is a very good proposition.
 
 {{< notice remark >}}
 This is a very good remark.
+{{< /notice >}}
+
+{{< notice lemma >}}
+This is a very good lemma.
+{{< /notice >}}
+
+{{< notice assumption >}}
+This is a very good assumption.
+{{< /notice >}}
+
+{{< notice conjecture >}}
+This is a very good conjecture.
 {{< /notice >}}

@@ -55,3 +55,9 @@
   translation: "Proposition"
 - id: remark
   translation: "Remark"
+- id: lemma
+  translation: "Lemma"
+- id: assumption
+  translation: "Assumption"
+- id: conjecture
+  translation: "Conjecture"

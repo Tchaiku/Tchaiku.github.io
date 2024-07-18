@@ -1,0 +1,65 @@
+# from theme PaperMod
+
+- id: prev_page
+  translation: "前へ"
+
+- id: next_page
+  translation: "次へ"
+
+- id: read_time
+  translation:
+    one : "1 分"
+    other: "{{ .Count }} 分"
+
+- id: words
+  translation:
+    one: "文字"
+    other: "{{ .Count }} 文字"
+
+- id: toc
+  translation: "目次"
+
+- id: translations
+  translation: "言語"
+
+- id: home
+  translation: "ホーム"
+
+- id: edit_post
+  translation: "編集"
+
+- id: code_copy
+  translation: "コピー"
+
+- id: code_copied
+  translation: "コピーされました!"
+
+
+# from hugo-notice
+
+- id: warning
+  translation: "警告"
+- id: note
+  translation: "メモ"
+- id: info
+  translation: "情報"
+- id: tip
+  translation: "ヒント"
+
+
+- id: theorem
+  translation: "定理"
+- id: definition
+  translation: "定義"
+- id: corollary
+  translation: "系"
+- id: proposition
+  translation: "命題"
+- id: remark
+  translation: "注"
+- id: lemma
+  translation: "補題"
+- id: assumption
+  translation: "仮定"
+- id: conjecture
+  translation: "予想"

@@ -56,3 +56,9 @@
   translation: "命题"
 - id: remark
   translation: "注记"
+- id: lemma
+  translation: "引理"
+- id: assumption
+  translation: "假定"
+- id: conjecture
+  translation: "猜想"
