@@ -48,6 +48,10 @@ params:
   showtoc: true
   tocopen: false
 
+  mainSections:
+    - post
+    - math
+    - demo
   # capitalizeListTitles: false
   # titleCaseStyle: 'none'
 
@@ -137,8 +141,12 @@ params:
 
 menu:
   main:
+    - identifier: demo
+      name: demo
+      url: /demo/
+      weight: 5
     - identifier: archives
-      name: archives
+      name: archive
       url: /archives/
       weight: 10
     # - identifier: about
@@ -150,7 +158,7 @@ menu:
     #   url: /categories/
       # weight: 10
     - identifier: tags
-      name: tags
+      name: tag
       url: /tags/
       weight: 20
     # - identifier: example
@@ -165,6 +173,7 @@ menu:
     #   name: math
     #   url: /math/
     #   weight: 10
+
 
 
 

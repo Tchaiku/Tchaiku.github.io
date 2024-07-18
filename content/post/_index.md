@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: Post
 ---
 
 # So this is a post list.
