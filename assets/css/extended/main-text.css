@@ -1,0 +1,21 @@
+.post-content p, .post-content ol, .post-content ul, .post-content dl, .post-content blockquote, .post-content table, .post-content figure {
+    font-family: Libertinus Serif, Linux Libertine, -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+    line-height: 1.55;
+}
+
+h1, h2, h3, h4, h5, h6 {
+     font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+}
+
+ul.post-tags {
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+
+}
+
+p.notice-title {
+    font-family: Linux Biolinum,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+}
+
+/* div.notice {
+    padding-bottom: 15px !important;
+} */
