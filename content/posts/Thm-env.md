@@ -61,7 +61,7 @@ A polarised variety $(X,L)$ is K-semistable if for any test configuration ${\cal
 {{< /notice >}}
 
 
-Note that in the last clause we allow the ${\bf C}^{*}$-action on $X\times {\bf C}$ to be induced from a non-trivial action[^1] on $X$. What we have called K-stability is often called K-polystability in the literature. The precise statement of the result mentioned in the previous section, verifying Yau’s conjecture, is
+Note that in the last clause we allow the ${\bf C}^{*}$-action on $X\times {\bf C}$ to be induced from a non-trivial action[^1] on $X$. What we have called **K-stability** is often called K-polystability in the literature. The precise statement of the result mentioned in the previous section, verifying Yau’s conjecture, is
 
 
 {{< notice theorem >}}
@@ -69,7 +69,7 @@ A Fano manifold $X$ admits a Kahler-Einstein metric if and only if $(X,K_{X}^{-1
 {{< /notice >}}
 
 
-Here the "only if" is usually regarded as the easier direction and is due to Berman, following related results of various authors The uniqueness of the metric, modulo holomorphic automorphisms, is a relatively old result of Bando and Mabuchi. We will not say more about these results here but focus on the ‘‘if” direction.
+Here the "only if" is usually regarded as the easier direction and is due to Berman, following related results of various authors The uniqueness of the metric, modulo holomorphic automorphisms, is a **relatively old** result of Bando and Mabuchi. We will not say more about these results here but focus on the ‘‘if” direction.
 
 ## Background to the technical aspects
 To give some background to the technical aspects of the proofs sketched in Section 4 below we will now try to explain why Theorem 1 is plausible. 
