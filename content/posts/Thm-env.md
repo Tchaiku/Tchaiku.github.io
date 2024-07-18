@@ -50,7 +50,7 @@ slug: theorem-in-hugo
 ---
 
 {{< notice note >}}
-This article below is only for showcasing the features of the *thm-environments* in progress over [`hugo-notice`](https://github.com/martignoni/hugo-notice). The math presented here is segmented from several math papers and as a whole it should make no sense *from the end of current sentence on*.
+This article below is only for showcasing the features of the *thm-environments* in progress over [`hugo-notice`](https://github.com/martignoni/hugo-notice). The math presented here is segmented from several math papers and as a whole it should *make no sense* from the end of current sentence on.
 {{< /notice >}}
 
 
