@@ -126,7 +126,7 @@ The rank of an elliptic curve is equal to the order to which the associated $L$-
 
 The three situations are illustrated for the $L$-functions of the Sylvester curves $x^3 + y^3 = p$ for $p = 5, 13$ and $19$ $(r = 0, 1 \text{ and } 2)$.
 
-The conjecture of Birch and Swinnerton-Dyer is still open, and the million dollars have not been claimed. All that one knows in general is that $r = 0$ if $L(1) \not = 0$ (as explained in the last section) and that $r = 1$ if $L(s)$ vanishes simply at $s = 1$ (Gross-agier (1983) and Kolyvagin (1988)). The solution of the problem, one of the deepest and most beautiful in all of number theory, will constitute a huge step forward in our understanding of the mysteries of numbers.
+The conjecture of Birch and Swinnerton-Dyer is still open, and the million dollars have not been claimed. All that one knows in general is that $r = 0$ if $L(1) \not = 0$ (as explained in the last section) and that $r = 1$ if $L(s)$ vanishes simply at $s = 1$ (Gross-Zagier (1983) and Kolyvagin (1988)). The solution of the problem, one of the deepest and most beautiful in all of number theory, will constitute a huge step forward in our understanding of the mysteries of numbers.
 
 By construction a critical point of ${\cal F}$ is exactly a constant scalar curvature metrics which, in the setting of Theorem 1 can be shown to be Kähler-Einstein. (We mention here that there is another functional, the *Ding functional* which has many similar properties to the Mabuchi functional and plays an important part in many developments. This is only defined for manifolds polarised by $K^{\pm 1}$.)
 
