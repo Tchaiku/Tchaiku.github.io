@@ -11,3 +11,14 @@ hugo.linux
 
 # Temporary lock file while building
 /.hugo_build.lock
+public/404.html
+public/index.html
+public/index.xml
+public/sitemap.xml
+public/categories/index.html
+public/categories/index.xml
+public/posts/index.html
+public/posts/index.xml
+public/posts/galton_board/index.html
+public/tags/index.html
+public/tags/index.xml

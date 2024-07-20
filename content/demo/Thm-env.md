@@ -86,10 +86,10 @@ Consider the map $\mathbf{G}_z:\mathbf{Q}_* \ni [(V,E,L,W, \beta, U,\mathbf{x_0}
 First we go back to the definition of the Futaki invariant of $(Z,\Lambda)$ in the case when $Z$ is a manifold, which was in fact the original context for Futaki’s definition. Choose a Kähler metric $\omega$ on $Z$ in the class $c_{1}(\Lambda)$ preserved by the action of $S^{1}\subset {\bf C}^{*}$. 
 
 {{< notice lemma >}}
-Suppose $f: R → R$ is twice continuously diﬀerentiable and $\mathrm dX = a_t \mathrm dt + b_t \mathrm dW$ . Then $f (X)$ is the **Ito process**, that is,
+Suppose $f: R → R$ is twice continuously diﬀerentiable and $\mathrm dX = a_t \mathrm dt + b_t \mathrm dW$. Then $f (X)$ is the **Ito process**, moreover, we have
 $$
 \begin{aligned}
-f (X_t) = & f (X_0) + \int_0^t f′(X_s) a_s \mathrm d s \\
+f (X_t) = & f (X_0) + \int_0^t f'(X_s) a_s \mathrm d s \\
         +  & \int_0^t f'(Xs) b_s \mathrm dW + \frac 1 2 \int_0^t f^{''}(X_s) b_s^2 \mathrm d s,\\
 \end{aligned}
 $$
