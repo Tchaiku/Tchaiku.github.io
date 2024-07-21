@@ -215,8 +215,9 @@ plt.show()
 
 ```
 
-
+<!-- 
     
 ![png](/Galton_board_5_0.png)
-    
+     -->
 
+{{< figure src="/Galton_board_5_0.png" title="result" >}}
