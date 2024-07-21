@@ -17,6 +17,9 @@
     <link href="https://fonts.cdnfonts.com/css/libertinus-serif?styles=27976,27975,27973,27974" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/linux-biolinum" rel="stylesheet">
                 
+    {{/*  <link rel="stylesheet" href="/css/lightbox.css">  */}}
+    <link rel="stylesheet" href="/css/dimbox.min.css" />
+
 </head>
 
 <body class="
@@ -27,11 +30,23 @@
 {{- print " dark" }}
 {{- end -}}
 " id="top">
+
+        {{/*  
+    add lightbox 
+    ref: https://hugocodex.org/add-ons/lightbox/
+    */}}
+
+    {{/*  <script type="text/javascript" src="/js/lightbox.js"></script>  */}}
+
+    
     {{- partialCached "header.html" . .Page -}}
     <main class="main">
         {{- block "main" . }}{{ end }}
     </main>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+
+
+    <script src="/js/dimbox.min.js"></script>
 </body>
 
 </html>

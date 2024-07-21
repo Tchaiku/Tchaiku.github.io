@@ -215,9 +215,12 @@ plt.show()
 
 ```
 
-<!-- 
-    
-![png](/Galton_board_5_0.png)
-     -->
 
-{{< figure src="/Galton_board_5_0.png" title="result" >}}
+    
+![this looks like a normal distribution.](/Galton_board_5_0.png)
+    
+
+
+<!-- <a href="/Galton_board_5_0.png" data-dimbox="" data-dimbox-caption="My Test Image">
+    <img src="/Galton_board_5_0.png" alt="This is an awesome image" />
+</a> -->
