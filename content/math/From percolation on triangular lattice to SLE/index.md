@@ -20,6 +20,7 @@ draft: false
 editPost:
   Text: Source
   URL: "https://github.com/Tchaiku/Tchaiku.github.io/blob/master/content/math/From%20percolation%20on%20triangular%20lattice%20to%20SLE/scaling_limit.pdf"
+  appendFilePath: false
 # summary: "say something"
 hideSummary: false
 hidemeta: false
