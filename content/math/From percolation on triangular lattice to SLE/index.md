@@ -47,8 +47,9 @@ This particular discovery is one of the motivations at very beginning of the ide
 
 The note attached here is nothing new but all from the reference. As I made some effort on drawing the pictures step by step, I hope this will make you get some good ideas behind it.
 
-{{<pdf "scaling_limit.pdf">}}
+<!-- {{<pdf "scaling_limit.pdf">}} -->
 
+<iframe class="pdf" src="/pdfjs/web/viewer.html?file=%2Fscaling_limit.pdf" width= "100%" height= "960px"></iframe>
 
 [^1]: Schramm: *Conformally invariant scaling limits (an overview and a collection of problems)*, [arXiv:math/0602151](https://arxiv.org/abs/math/0602151)
 
