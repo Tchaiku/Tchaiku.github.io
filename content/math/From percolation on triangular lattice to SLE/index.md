@@ -47,10 +47,10 @@ This particular discovery is one of the motivations at very beginning of the ide
 
 The note attached here is nothing new but all from the reference. As I made some effort on drawing the pictures step by step, I hope this will make you get some good ideas behind it.
 
-<!-- {{<pdf "scaling_limit.pdf">}} -->
+ <object  data= "scaling_limit.pdf"  width= "100%" height= "950px">
+        </object>
 
-{{< embed-pdf url="scaling_limit.pdf" >}}
-
+        
  <iframe  src= "scaling_limit.pdf"  width= "100%" height= "950px">
         </iframe>
 
