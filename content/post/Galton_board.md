@@ -18,6 +18,7 @@ summary: "A simple simulation of the Galton board in Python, using the object-or
 
 description: "A simple simulation the trial in Python, verifying the central limit theorem."
 
+author: M. T.
 cover:
   alt: "A real Galton board."
 #   caption: <text>
