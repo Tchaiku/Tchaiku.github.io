@@ -4,12 +4,18 @@
 
 <script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
 <script type="text/javascript">
+
+    const previewConfig = {
+        defaultViewMode: "FIT_PAGE",
+        enableLinearization: true,
+     }
+
     document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
         var adobeDCView = new AdobeDC.View({clientId: "cb3fa6af2bc942219981097411c06fb2", divId: "adobe-dc-view"});
         adobeDCView.previewFile({
             content:{location: {url: "{{ .Get 0 }}"}},
 			metaData:{fileName: "{{ .Get 0 }}.pdf"}
-        }, {embedMode: "SIZED_CONTAINER"});
+        }, {embedMode: "SIZED_CONTAINER"},previewConfig);
     });
 </script>
 
