@@ -141,6 +141,10 @@ params:
 
 menu:
   main:
+    - identifier: math
+      name: math
+      url: /math/
+      weight: 1
     - identifier: demo
       name: demo
       url: /demo/
