@@ -47,12 +47,18 @@ This particular discovery is one of the motivations at very beginning of the ide
 
 The note attached here is nothing new but all from the reference. As I made some effort on drawing the pictures step by step, I hope this will make you get some good ideas behind it.
 
- <object  data= "scaling_limit.pdf"  width= "100%" height= "950px">
-        </object>
 
-        
- <iframe  src= "scaling_limit.pdf"  width= "100%" height= "950px">
-        </iframe>
+<div id="adobe-dc-view" style="width: 800px;"></div>
+<script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
+<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+		var adobeDCView = new AdobeDC.View({clientId: "cb3fa6af2bc942219981097411c06fb2", divId: "adobe-dc-view"});
+		adobeDCView.previewFile({
+			content:{location: {url: "scaling_limit.pdf"}},
+			metaData:{fileName: "test.pdf"}
+		}, {embedMode: "IN_LINE"});
+	});
+</script>
 
 
 [^1]: Schramm: *Conformally invariant scaling limits (an overview and a collection of problems)*, [arXiv:math/0602151](https://arxiv.org/abs/math/0602151)
