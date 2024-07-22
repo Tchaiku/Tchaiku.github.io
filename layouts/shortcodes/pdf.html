@@ -15,7 +15,10 @@
         adobeDCView.previewFile({
             content:{location: {url: "{{ .Get 0 }}"}},
 			metaData:{fileName: "{{ .Get 0 }}.pdf"}
-        }, {embedMode: "SIZED_CONTAINER"},previewConfig);
+        }, {embedMode: "SIZED_CONTAINER", 
+            defaultViewMode: "FIT_PAGE",
+            enableLinearization: true,
+            });
     });
 </script>
 
