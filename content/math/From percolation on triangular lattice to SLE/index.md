@@ -49,7 +49,11 @@ The note attached here is nothing new but all from the reference. As I made some
 
 <!-- {{<pdf "scaling_limit.pdf">}} -->
 
-<object id="preview" data="scaling_limit.pdf" width= "100%" height= "950px"></object>
+{{< embed-pdf url="scaling_limit.pdf" >}}
+
+ <iframe  src= "scaling_limit.pdf"  width= "100%" height= "950px">
+        </iframe>
+
 
 [^1]: Schramm: *Conformally invariant scaling limits (an overview and a collection of problems)*, [arXiv:math/0602151](https://arxiv.org/abs/math/0602151)
 
