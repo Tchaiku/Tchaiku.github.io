@@ -196,7 +196,7 @@ markup:
 # 2024-7-24: Settings for using math in markdown 
   goldmark:
     renderer:
-      unsafe: false
+      unsafe: true
     parser:
       attribute:
         block: true
