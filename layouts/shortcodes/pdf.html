@@ -8,7 +8,7 @@
         var adobeDCView = new AdobeDC.View({clientId: "cb3fa6af2bc942219981097411c06fb2", divId: "adobe-dc-view"});
         adobeDCView.previewFile({
             content:{location: {url: "{{ .Get 0 }}"}},
-			metaData:{fileName: "{{ .Get 0 }}"}
+			metaData:{fileName: "{{ .Get 0 }}.pdf"}
         }, {embedMode: "SIZED_CONTAINER"});
     });
 </script>
