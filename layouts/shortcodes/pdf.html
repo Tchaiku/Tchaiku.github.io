@@ -8,9 +8,9 @@
         var adobeDCView = new AdobeDC.View({clientId: "cb3fa6af2bc942219981097411c06fb2", divId: "adobe-dc-view"});
         adobeDCView.previewFile({
             content:{location: {url: "{{ .Get 0 }}"}},
-            metaData:{fileName: "{{ .Get 0 }}"}
+			metaData:{fileName: "{{ .Get 0 }}"}
         }, {embedMode: "SIZED_CONTAINER"});
     });
 </script>
 
-<div id="adobe-dc-view pdf" style="height: 960px; width: 100%;"></div>
+<div id="adobe-dc-view" class="pdf" style="height: 960px; width: 100%;"></div>
