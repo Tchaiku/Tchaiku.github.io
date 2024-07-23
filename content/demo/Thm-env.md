@@ -44,7 +44,7 @@ author:
 - John Doe
 title: "Theorem-like blocks for academic purpose in Hugo"
 description: For those in need of some $\LaTeX$ style boxes for emphasizing.
-weight: 1
+# weight: 1
 
 slug: theorem-in-hugo
 ---
