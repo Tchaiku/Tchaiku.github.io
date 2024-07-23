@@ -109,7 +109,7 @@ To precisely implement a state would be out of today's range. Now we only need t
 First we need to check if a coordinate $(x_1,x_2)$ is valid. Two things to check: 
 
 1. if this is a tuple of length 2; 
-2. if the entries are integers of $1,\dots,9$.
+2. if the entries are integers of $0,\dots,8$.
 
 
 ```python
