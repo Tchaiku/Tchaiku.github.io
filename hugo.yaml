@@ -141,10 +141,14 @@ params:
 
 menu:
   main:
+    - identifier: post
+      name: post
+      url: /post/
+      weight: 1
     - identifier: math
       name: math
       url: /math/
-      weight: 1
+      weight: 2
     - identifier: demo
       name: demo
       url: /demo/
