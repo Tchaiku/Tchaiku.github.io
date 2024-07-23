@@ -20,12 +20,12 @@ summary: Yet another practice in Python.
 description: This is a practice of implementing the Go/Baduk/Weiqi game in Python.
 
 author: M. T.
-# cover:
-#   alt: "A real Galton board."
-# #   caption: <text>
-#   caption: "Refer to this if you're not sure about some parameters in the code. Note that the 'size' is always an even number."
-#   image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Tabuleiros_de_Galton_%28antes_e_depois%29.jpg/1920px-Tabuleiros_de_Galton_%28antes_e_depois%29.jpg"
-#   relative: false
+cover:
+  alt: "A real game of Go."
+#   caption: <text>
+  caption: "Refer to this if you are confused about the board states in the context."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Baduk_or_Go.jpg/1024px-Baduk_or_Go.jpg"
+  relative: false
 ---
 
 {{< notice note >}}
@@ -39,7 +39,7 @@ First of all, If you're really unfamiliar with even the name, this post may not 
 
 Some of you may have heard of it from the [famous match](https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol) between AlphaGo and Lee Sedol. And you may be wondering if this game would be hard to implement in Python. Nah, I guess the hardest part is only about the AI, that is, how to decide which move to go, among the many valid moves. But we are not going that far. A basic implementation of the game is quite a standard practice in Python. 
 
-Let start!
+Let's start!
 
 I have no plan to implement all of the game today. At this moment let's quickly go thorough several ideas playing a center role in the logic of the game.
 
