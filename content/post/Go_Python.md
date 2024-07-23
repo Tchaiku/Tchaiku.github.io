@@ -11,6 +11,7 @@ tags:
 - Algorithm
   
 title: "Go in Python I: Liberties"
+slug: go-python-1
 editPost:
   Text: Source
 
