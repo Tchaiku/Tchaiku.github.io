@@ -296,10 +296,10 @@ def find_neighbors(coords, state):
 
 ```python
 # test
-print(find_neighbors({(0, 0)}, state)) # Expected output: {(0, 1), (1, 0)}
+print(find_neighbors({(0, 0)}, state)) 
 # test for a set of coordinates of many isolated stones
-print(find_neighbors({(0, 0), (1, 1), (8, 8)}, state)) # Expected output: {(0, 1), (1, 0), (1, 2), (2, 1)}
-print(find_neighbors({(0, 0), (1, 1)}, state)) # Expected output: {(0, 1), (1, 0), (1, 2), (2, 1)}
+print(find_neighbors({(0, 0), (1, 1), (8, 8)}, state)) 
+print(find_neighbors({(0, 0), (1, 1)}, state))
 ```
 
     {(0, 1), (1, 0)}
