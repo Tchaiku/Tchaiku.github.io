@@ -71,7 +71,7 @@ Today, let's try a little bit. First of all we need to denote a state. The most 
 ```python
 import numpy as np
 
-# first let's look at an example of a 9x9 state.3
+# first let's look at an example of a 9x9 state.
 # we can represent the board as a 9x9 numpy array
 
 state = np.array([[0, 0, 0, 0, 0, 0, 0, 0, -1],
