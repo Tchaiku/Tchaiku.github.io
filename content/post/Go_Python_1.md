@@ -1,14 +1,14 @@
 ---
 date: "2024-07-23"
-lastmod: "2024-07-23"
+lastmod: "2024-07-24"
 draft: false
 tags:
-- Python
-- Go
-- Weiqi
-- Baduk
+- python
+- go
+- weiqi
+- baduk
 - breadth-first search
-- Algorithm
+- algorithm
   
 title: "Go in Python I: Liberties"
 slug: go-python-1
@@ -373,17 +373,24 @@ print(find_frontiers(coords, state))
 
 ### Breadth-first search
 
-(TODO: add some explanation on BFS here.)
+ When we say cluster, we means *one* maximal path-connected component. That is, a cluster is
+ - Whose size cannot be further increased: if you try to find frontier of a cluster, than you can find nothing.
+ - Whose stones are closely connected: that is, from any stone A and stone B inside a cluster, there is always a path connecting A to B. 
+
+This gives us an idea to find a cluster given a starting point. You try to find frontiers of the starting point, visit it, then set the visited point as the new starting point, keeping doing this until you have no where to go: that is, no unvisited frontiers for you to go. This is the time to exit the process. 
+
+What described is in fact, the Breadth-first search. Let's do this.
 
 ```python
-def find_cluster(coords, state):
-    if not is_valid_one_color_coordinates(coords, state):
-        raise ValueError("Invalid coordinates.")
-    if any(state[point] == 0 for point in coords):
-        raise ValueError("One or more starting points have no stone.")
+def find_cluster(coord, state):
+    if not is_valid_coordinate(coord):
+        raise ValueError("Invalid coordinate.")
+
+    if state[coord] == 0:
+        raise ValueError("the starting coordinate has no stone.")
     
     visited = set()
-    visitable = find_frontiers(coords, state)
+    visitable = find_frontiers({coord}, state)
     
     while len(visitable) > 0:
         current = visitable
@@ -392,18 +399,19 @@ def find_cluster(coords, state):
         visitable = frontiers - visited
     
     # lastly, the cluster should include the starting points
-    visited.update(coords)
+    visited.update({coord})
 
     return visited
+
 
 ```
 
 
 ```python
-cluster = find_cluster({(1,7)}, state)
+cluster = find_cluster((1,7), state)
 print(cluster)
 
-cluster = find_cluster({(1,6), (1,7)}, state)
+cluster = find_cluster((1,6), state)
 print(cluster)
 ```
 
@@ -420,23 +428,32 @@ If we start from any set of stone of the same color, to get its liberties,
 
 
 ```python
-def find_liberties(coords, state):
-     color = state[next(iter(coords))]
-    # 1. find the cluster
-     cluster = find_cluster(coords, state)
-    # 2. find the empty neighbors of the cluster
-     emtpy_neighbors = find_empty_neighbors(cluster, state)
-    # 3. count the number of empty neighbors
-     return len(emtpy_neighbors)
+def find_liberties(coord, state):
+   if not is_valid_coordinate(coord):
+        raise ValueError("Invalid coordinate.")
+
+   if state[coord] == 0:
+        raise ValueError("the starting coordinate has no stone.")
+   
+   color = state[coord]
+
+
+   # 1. find the cluster
+   cluster = find_cluster(coord, state)
+   # 2. find the empty neighbors of the cluster
+   emtpy_neighbors = find_empty_neighbors(cluster, state)
+   # 3. count the number of empty neighbors
+   return len(emtpy_neighbors)
 ```
 
 
 ```python
-print(find_liberties({(1,7)}, state))
-print(find_liberties({(0,8)}, state)) 
-print(find_liberties({(7,7)}, state))
-print(find_liberties({(1,1)}, state))
-print(find_liberties({(3,3)}, state))
+print(find_liberties((1,7), state))
+print(find_liberties((0,8), state)) 
+print(find_liberties((7,7), state))
+print(find_liberties((1,1), state))
+print(find_liberties((3,3), state))
+print(find_liberties((8,8), state))
 ```
 
     10
@@ -444,4 +461,5 @@ print(find_liberties({(3,3)}, state))
     4
     6
     11
+    2
     
